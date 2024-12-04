@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/products.css">
+</head>
+
+<body>
+    <div class="header-wrapper">
+        <nav class="top-nav">
+            <div class="top-nav-content container">
+                <div class="nav-links">
+                    <a href="./index.html" class="nav-home">Home</a>>
+                    <ul class="nav-items">
+                        <li>
+                            <a href="./blog.html" class="nav-item">Blog</a>
+                        </li>
+                        <li>
+                            <a href="./cart.html" class="nav-item">Cart</a>
+                        </li>
+                        <li>
+                            <a href="./products.html" class="nav-item">Products</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="language-selector">
+                    <span class="language-text">English</span>
+                    <img src="./images/language.svg" alt="" class="language-icon" />
+                </div>
+            </div>
+        </nav>
+        <header class="main-header container">
+            <div class="search-section">
+                <img src="./images/company-logo.jpg" alt="Company Logo" class="site-logo" />
+                <div class="search-container">
+                    <label for="searchInput" class="visually-hidden">Search products</label>
+                    <input type="search" id="searchInput" class="search-input" placeholder="try 'Nike Air Jordan'"
+                        aria-label="Search products" />
+                    <img src="./images/lupa.svg" alt="Search" class="search-icon" />
+                </div>
+            </div>
+            <div class="user-actions">
+                <a href="./cart.html" style="text-decoration: none;" class="cart-button"
+                    aria-label="Shopping cart with 3 items">
+                    <img src="./images/cart.svg" alt="" class="cart-icon" />
+                    <span class="cart-count">3<span class="hidden-673">items</span></span>
+                </a>
+                <a href="./signup.html" class="user-profile">
+                    <img src="./images/placeholder.png" alt="Profile picture of Clark Kent" class="profile-image" />
+                    <span class="profile-name hidden-673">Clark Kent</span>
+                </a>
+            </div>
+        </header>
+
+    </div>
+    <main>
+        <section class="filter-section container">
+            <aside class="filter-sidebar">
+                <h2 class="filter-heading">Filter products</h2>
+
+                <div class="filter-group">
+                    <h3 class="filter-group-title">Brands</h3>
+                    <div class="filter-buttons">
+                        <button class="btn btn-primary">All</button>
+                        <button class="btn btn-secondary">Nike</button>
+                    </div>
+                    <div class="filter-buttons">
+                        <button class="btn btn-secondary">New Balance</button>
+                        <button class="btn btn-secondary">Rick Owens</button>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <h3 class="filter-group-title">Gender</h3>
+                    <div class="filter-buttons">
+                        <button class="btn btn-primary">Men</button>
+                        <button class="btn btn-secondary">Women</button>
+                    </div>
+                    <div class="filter-buttons">
+                        <button class="btn btn-secondary">Unisex</button>
+                        <button class="btn btn-secondary">Kids</button>
+                    </div>
+                </div>
+
+
+            </aside>
+
+            <main class="products-section">
+                <div class="products-header">
+                    <div class="products-search">
+                        <img src="./images/lupa.svg" alt="" class="search-icon">
+                        <input class="search-input" type=" search" placeholder="Search..." aria-label="Search products">
+                    </div>
+
+                    <button class="filter-button">
+                        <img src="./images/more-filters.svg" alt="" class="search-icon">
+                        <span>Filters</span>
+                    </button>
+
+                    <button class="sort-button">
+                        <span>Most popular</span>
+                        <img src="./images/popular.svg" alt="" class="search-icon">
+                    </button>
+                </div>
+                <ul class="deals-list" style="padding: 10px;">
+                    <li class="card">
+                        <a style="text-decoration: none; color: black;" href="./product.html?id=1">
+                            <img class="card-image" src="./images/airForce1.webp" alt="Air Force 1" />
+                            <div class="flex">
+                                <div>
+                                    <h3>Air Force 1</h3>
+                                    <p>Men's shoes</p>
+                                </div>
+                                <div>
+                                    <del>$250</del>
+                                    <span>$199</span>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-heart">
+                                <path
+                                    d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <a style="text-decoration: none; color: black;" href="./product.html?id=2">
+                            <img class="card-image" src="./images/lebronBlack.webp" alt="Lebron Black" />
+                            <div class="flex">
+                                <div>
+                                    <h3>Lebron Black</h3>
+                                    <p>Men's shoes</p>
+                                </div>
+                                <div>
+                                    <del>$250</del>
+                                    <span>$199</span>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-heart">
+                                <path
+                                    d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <a style="text-decoration: none; color: black;" href="./product.html?id=3">
+                            <img class="card-image" src="./images/brownsb.webp" alt="SB Low Brown" />
+                            <div class="flex">
+                                <div>
+                                    <h3>SB Low Brown</h3>
+                                    <p>Men's shoes</p>
+                                </div>
+                                <div>
+                                    <del>$250</del>
+                                    <span>$199</span>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-heart">
+                                <path
+                                    d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <a style="text-decoration: none; color: black;" href="./product.html?id=4">
+                            <img class="card-image" src="./images/brsb.webp" alt="BRSB" />
+                            <div class="flex">
+                                <div>
+                                    <h3>BRSB</h3>
+                                    <p>Men's shoes</p>
+                                </div>
+                                <div>
+                                    <del>$250</del>
+                                    <span>$199</span>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-heart">
+                                <path
+                                    d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <a style="text-decoration: none; color: black;" href="./product.html?id=5">
+                            <img class="card-image" src="./images/dunklow.webp" alt="Dunk Low" />
+                            <div class="flex">
+                                <div>
+                                    <h3>Dunk Low</h3>
+                                    <p>Men's shoes</p>
+                                </div>
+                                <div>
+                                    <del>$250</del>
+                                    <span>$199</span>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-heart">
+                                <path
+                                    d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <a style="text-decoration: none; color: black;" href="./product.html?id=6">
+                            <img class="card-image" src="./images/lebronxx.webp" alt="Lebron XXL" />
+                            <div class="flex">
+                                <div>
+                                    <h3>Lebron XXL</h3>
+                                    <p>Men's shoes</p>
+                                </div>
+                                <div>
+                                    <del>$250</del>
+                                    <span>$199</span>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-heart">
+                                <path
+                                    d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <a style="text-decoration: none; color: black;" href="./product.html?id=7">
+                            <img class="card-image" src="./images/metcon5.webp" alt="Jordan Sky" />
+                            <div class="flex">
+                                <div>
+                                    <h3>Metcon 5</h3>
+                                    <p>Men's shoes</p>
+                                </div>
+                                <div>
+                                    <del>$250</del>
+                                    <span>$199</span>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-heart">
+                                <path
+                                    d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <a style="text-decoration: none; color: black;" href="./product.html?id=8">
+                            <img class="card-image" src="./images/metcon9.webp" alt="Panda White" />
+                            <div class="flex">
+                                <div>
+                                    <h3>Metcon 9</h3>
+                                    <p>Men's shoes</p>
+                                </div>
+                                <div>
+                                    <del>$250</del>
+                                    <span>$199</span>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-heart">
+                                <path
+                                    d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <a style="text-decoration: none; color: black;" href="./product.html?id=9">
+                            <img class="card-image" src="./images/nike_blazer.webp" alt="Jordan Pink" />
+                            <div class="flex">
+                                <div>
+                                    <h3>Nike Blazer</h3>
+                                    <p>Men's shoes</p>
+                                </div>
+                                <div>
+                                    <del>$250</del>
+                                    <span>$199</span>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-heart">
+                                <path
+                                    d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </main>
+        </section>
+
+
+        <section class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    BRINGING YOU TO UPDATE
+                    WITH FANTASTIC FOOTWEAR
+                </h1>
+                <p class="hero-description">
+                    View all brands of our collection on Just, there is another
+                    collection. Please check it
+                    <br />
+                    out bro, like seriously
+                </p>
+                <button class="cta-button" tabindex="0">More about us</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-container">
+        <div class="footer-content">
+            <div class="brand-section">
+                <div class="brand-header">
+                    <img src="./images/company-logo.jpg" alt="Just Logo" class="brand-logo" />
+                    <span>Just.</span>
+                </div>
+                <p class="brand-description">
+                    Just was designed and founded in 2023 by Person. The theme is about
+                    sneakers ecommerce thet use for shoes selling around the world.
+                </p>
+                <form class="newsletter-container">
+                    <div class="newsletter-content">
+                        <div class="newsletter-left">
+                            <div class="newsletter-header">
+                                <h2 class="newsletter-title">
+                                    Don't wanna miss our offers?
+                                </h2>
+                                <label for="emailInput" class="visually-hidden">Enter your email</label>
+                                <input type="email" id="emailInput" class="newsletter-input"
+                                    placeholder="Your email@email.com" aria-label="Enter your email" required />
+                            </div>
+                        </div>
+                        <div class="newsletter-right">
+                            <div class="newsletter-description-wrapper">
+                                <p class="newsletter-description">
+                                    Drop your email below and<br />
+                                    start receiving the best offers<br />
+                                    from Just
+                                </p>
+                                <button type="submit" class="subscribe-button">Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="footer-nav">
+                <nav class="main-pages">
+                    <h3 class="pages-title">Main Pages</h3>
+                    <ul>
+                        <li>
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">Collections</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">Cart</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">Checkout</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">Blogs</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <nav class="main-pages">
+                    <h3 class="pages-title">Single Pages</h3>
+                    <ul>
+                        <li>
+                            <a href="#" class="nav-link">Product</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">Blog</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <nav class="main-pages">
+                    <h3 class="pages-title">Utility Pages</h3>
+                    <ul>
+                        <li>
+                            <a href="#" class="nav-link">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

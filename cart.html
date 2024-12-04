@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/cart.css">
+</head>
+
+<body>
+    <div class="header-wrapper">
+        <nav class="top-nav">
+            <div class="top-nav-content container">
+                <div class="nav-links">
+                    <a href="./index.html" class="nav-home">Home</a>>>
+                    <ul class="nav-items">
+                        <li>
+                            <a href="./blog.html" class="nav-item">Blog</a>
+                        </li>
+                        <li>
+                            <a href="./cart.html" class="nav-item">Cart</a>
+                        </li>
+                        <li>
+                            <a href="./products.html" class="nav-item">Products</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="language-selector">
+                    <span class="language-text">English</span>
+                    <img src="./images/language.svg" alt="" class="language-icon" />
+                </div>
+            </div>
+        </nav>
+        <header class="main-header container">
+            <div class="search-section">
+                <img src="./images/company-logo.jpg" alt="Company Logo" class="site-logo" />
+                <div class="search-container">
+                    <label for="searchInput" class="visually-hidden">Search products</label>
+                    <input type="search" id="searchInput" class="search-input" placeholder="try 'Nike Air Jordan'"
+                        aria-label="Search products" />
+                    <img src="./images/lupa.svg" alt="Search" class="search-icon" />
+                </div>
+            </div>
+            <div class="user-actions">
+                <a href="./cart.html" style="text-decoration: none;" class="cart-button"
+                    aria-label="Shopping cart with 3 items">
+                    <img src="./images/cart.svg" alt="" class="cart-icon" />
+                    <span class="cart-count">3<span class="hidden-673">items</span></span>
+                </a>
+                <a href="./signup.html" class="user-profile">
+                    <img src="./images/placeholder.png" alt="Profile picture of Clark Kent" class="profile-image" />
+                    <span class="profile-name hidden-673">Clark Kent</span>
+                </a>
+            </div>
+        </header>
+
+    </div>
+    <div class="cart-container container">
+        <h1 class="cart-title">Your Cart</h1>
+        <div class="divider"></div>
+
+        <div class="cart-content">
+            <div class="cart-items">
+                <div class="product-card">
+                    <img src="./images/airForce1.webp" alt="Nike Air Force 1 Shoes" class="product-image">
+                    <div class="product-details">
+                        <div>
+                            <h2 class="product-title">Air Force 1</h2>
+                            <p class="product-category">Men's shoes</p>
+                            <div class="rating">
+                                <img src="./images/star.svg" alt="" class="rating-icon">
+                                <span>4.8</span>
+                            </div>
+                            <div class="color-options">
+                                <img src="./images/heart.svg" alt="Color option 1" class="color-swatch">
+                                <img src="./images/bucket.svg" alt="Color option 2" class="color-swatch">
+                            </div>
+                        </div>
+                        <div class="cart-item-1">
+                            <div class="quantity-controls" role="group" aria-label="Product quantity controls">
+                                <button class="quantity-btn" aria-label="Decrease quantity">-</button>
+                                <span class="quantity">1</span>
+                                <button class="quantity-btn" aria-label="Increase quantity">+</button>
+                            </div>
+                            <span class="price">$199</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="./images/lebronBlack.webp" alt="Nike Lebron Shoes" class="product-image">
+                    <div class="product-details">
+                        <div>
+                            <h2 class="product-title">Lebron Black</h2>
+                            <p class="product-category">Men's shoes</p>
+                            <div class="rating">
+                                <img src="./images/star.svg" alt="" class="rating-icon">
+                                <span>4.8</span>
+                            </div>
+                            <div class="color-options">
+                                <img src="./images/heart.svg" alt="Color option 1" class="color-swatch">
+                                <img src="./images/bucket.svg" alt="Color option 2" class="color-swatch">
+                            </div>
+                        </div>
+                        <div class="cart-item-1">
+                            <div class="quantity-controls" role="group" aria-label="Product quantity controls">
+                                <button class="quantity-btn" aria-label="Decrease quantity">-</button>
+                                <span class="quantity">1</span>
+                                <button class="quantity-btn" aria-label="Increase quantity">+</button>
+                            </div>
+                            <span class="price">$199</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="./images/brownsb.webp" alt="Nike SB Low Brown Shoes" class="product-image">
+                    <div class="product-details">
+                        <div>
+                            <h2 class="product-title">SB Low Brown</h2>
+                            <p class="product-category">Men's shoes</p>
+                            <div class="rating">
+                                <img src="./images/star.svg" alt="" class="rating-icon">
+                                <span>4.8</span>
+                            </div>
+                            <div class="color-options">
+                                <img src="./images/heart.svg" alt="Color option 1" class="color-swatch">
+                                <img src="./images/bucket.svg" alt="Color option 2" class="color-swatch">
+                            </div>
+                        </div>
+                        <div class="cart-item-1">
+                            <div class="quantity-controls" role="group" aria-label="Product quantity controls">
+                                <button class="quantity-btn" aria-label="Decrease quantity">-</button>
+                                <span class="quantity">1</span>
+                                <button class="quantity-btn" aria-label="Increase quantity">+</button>
+                            </div>
+                            <span class="price">$199</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart-summary">
+                <div class="summary-header">
+                    <h2 class="summary-title">Summary</h2>
+                    <span class="summary-total">$249.00</span>
+                </div>
+
+                <div class="summary-row">
+                    <span>Estimated Delivery & Handling</span>
+                    <span>Free</span>
+                </div>
+
+                <div class="summary-row">
+                    <span>Estimated taxes</span>
+                    <span>$24.90</span>
+                </div>
+
+                <div class="summary-row">
+                    <span class="summary-total">Total</span>
+                    <span class="summary-total">$276.00</span>
+                </div>
+
+                <button class="checkout-btn">Checkout Now</button>
+                <button class="paypal-btn">
+                    <img src="./images/paypal.svg" alt="" class="paypal-icon">
+                    <span>PayPal</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <section class="hero-container">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                BRINGING YOU TO UPDATE
+                WITH FANTASTIC FOOTWEAR
+            </h1>
+            <p class="hero-description">
+                View all brands of our collection on Just, there is another
+                collection. Please check it
+                <br />
+                out bro, like seriously
+            </p>
+            <button class="cta-button" tabindex="0">More about us</button>
+        </div>
+    </section>
+
+    <footer class="footer-container">
+        <div class="footer-content">
+            <div class="brand-section">
+                <div class="brand-header">
+                    <img src="./images/company-logo.jpg" alt="Just Logo" class="brand-logo" />
+                    <span>Just.</span>
+                </div>
+                <p class="brand-description">
+                    Just was designed and founded in 2023 by Person. The theme is about
+                    sneakers ecommerce thet use for shoes selling around the world.
+                </p>
+                <form class="newsletter-container">
+                    <div class="newsletter-content">
+                        <div class="newsletter-left">
+                            <div class="newsletter-header">
+                                <h2 class="newsletter-title">
+                                    Don't wanna miss our offers?
+                                </h2>
+                                <label for="emailInput" class="visually-hidden">Enter your email</label>
+                                <input type="email" id="emailInput" class="newsletter-input"
+                                    placeholder="Your email@email.com" aria-label="Enter your email" required />
+                            </div>
+                        </div>
+                        <div class="newsletter-right">
+                            <div class="newsletter-description-wrapper">
+                                <p class="newsletter-description">
+                                    Drop your email below and<br />
+                                    start receiving the best offers<br />
+                                    from Just
+                                </p>
+                                <button type="submit" class="subscribe-button">Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="footer-nav">
+                <nav class="main-pages">
+                    <h3 class="pages-title">Main Pages</h3>
+                    <ul>
+                        <li>
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">Collections</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">Cart</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">Checkout</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">Blogs</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <nav class="main-pages">
+                    <h3 class="pages-title">Single Pages</h3>
+                    <ul>
+                        <li>
+                            <a href="#" class="nav-link">Product</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">Blog</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <nav class="main-pages">
+                    <h3 class="pages-title">Utility Pages</h3>
+                    <ul>
+                        <li>
+                            <a href="#" class="nav-link">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
