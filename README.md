@@ -1,19 +1,36 @@
-Just Shop 🛍️
-"Just Shop" is an e-commerce platform dedicated to selling Nike sneakers. This project is developed as part of the IT Business Faculty curriculum at Westminster University. The web application features a modern, user-friendly interface and includes six pages: Home, Cart, Product, SignUp, Products, and Blog.
+# Just Shop 🛍️
 
-Features ✨
-Home Page: An engaging landing page showcasing featured Nike sneakers and promotions.
-Products Page: A comprehensive list of available sneakers with filtering and sorting options.
-Product Page: Detailed information about a selected sneaker, including price, description, and size availability.
-Cart Page: A simple cart system to manage selected products for checkout.
-SignUp Page: User registration to enable personalized experiences like saving carts or favorites.
-Blog Page: A platform for sharing articles about the latest trends, Nike updates, and sneaker culture.
-Technologies Used 💻
-Frontend: HTML , CSS , JavaScript
-Version Control: GitHub
-Project Structure 📂
-├── index.html/   # Home page
-├── *.html/       # HTML pages
-├── css/          # CSS
-├── js/           # JS
-├── images/       # Images , Svg
+**Just Shop** – это веб-приложение для электронной коммерции, ориентированное на продажу кроссовок Nike.  
+Проект разработан в рамках программы факультета IT-бизнеса Вестминстерского университета.  
+
+Приложение предлагает современный и удобный интерфейс и включает шесть страниц:  
+**Home**, **Cart**, **Product**, **SignUp**, **Products** и **Blog**.
+
+---
+
+## 🌟 Функции
+
+- **Home Page**  
+  Главная страница с акциями и популярными кроссовками Nike.  
+- **Products Page**  
+  Список всех доступных кроссовок с возможностью фильтрации и сортировки.  
+- **Product Page**  
+  Подробная информация о выбранной модели (цена, описание, размеры).  
+- **Cart Page**  
+  Простая система корзины для управления покупками перед оформлением заказа.  
+- **SignUp Page**  
+  Регистрация пользователей для сохранения данных, например избранного или корзины.  
+- **Blog Page**  
+  Блог с актуальными статьями о тенденциях, новостях Nike и культуре кроссовок.
+
+---
+
+## 💻 Используемые технологии
+
+- **Frontend**: HTML, CSS, JavaScript  
+- **Система контроля версий**: GitHub  
+
+---
+
+## 📂 Структура проекта
+
